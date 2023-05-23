@@ -1,0 +1,21 @@
+.sec1 {
+  height: 100vh;
+
+  .carousel-item {
+    img {
+      height: 100vh;
+    }
+    position: relative;
+
+    .carousel-caption {
+        top: 20%;
+    //   .forposition {
+    //     position: absolute;
+    //     left: 100px;
+    //     top: 0;
+
+    //     background-color: rgb(27, 187, 80);
+    //   }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+header .container .top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .top-bar .icons .fa-brands {
+  margin: 10px;
+}
+header .container .top-bar .icons:hover {
+  color: white;
+  cursor: pointer;
+}
+header .container .buttons .sponsor-btn {
+  background-color: transparent;
+  border: none;
+}
+header .container .buttons .login-btn {
+  background-color: yellow;
+  border: none;
+}
+
+.sec1 {
+  height: 100vh;
+}
+.sec1 .carousel-item {
+  position: relative;
+}
+.sec1 .carousel-item img {
+  height: 100vh;
+}
+.sec1 .carousel-item .carousel-caption {
+  top: 20%;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+.sec1 {
+  height: 100vh;
+}
+.sec1 .carousel-item {
+  position: relative;
+}
+.sec1 .carousel-item img {
+  height: 100vh;
+}
+.sec1 .carousel-item .carousel-caption {
+  top: 20%;
+}/*# sourceMappingURL=Home-page.css.map */

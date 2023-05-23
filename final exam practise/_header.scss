@@ -1,0 +1,40 @@
+header {
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+
+  .container {
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .icons {
+        .fa-brands {
+          margin: 10px;
+        }
+        &:hover {
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .buttons {
+      .sponsor-btn {
+        background-color: transparent;
+        border: none;
+      }
+
+      .login-btn {
+        background-color: yellow;
+        border: none;
+      }
+    }
+
+   
+  }
+}
